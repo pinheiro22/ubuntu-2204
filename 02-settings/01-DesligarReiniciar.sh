@@ -25,7 +25,7 @@ sudo poweroff --reboot
 # Desligando e reinicializando o servidor com init
 # opção do comando init: 0 (halt), 6 (reboot)
 sudo init 0 (init= desligar e rebootar forcado)
-sudo init 6
+sudo init 6 (faz o reboot forcado)
 #
 # Desligando e reinicializando o servidor com reboot
 sudo reboot --halt
