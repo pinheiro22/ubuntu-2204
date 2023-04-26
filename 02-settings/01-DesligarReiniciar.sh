@@ -33,10 +33,10 @@ sudo reboot (comando para rebootar)
 #
 # Desligando e reinicializando o servidor com shutdown
 # opção do comando shutdown: -P (poweroff), -h (halt 60 second), -r (reboot), -c (cancel)
-sudo shutdown -P
+sudo shutdown -P (desligar em 60 segundos)
 sudo shutdown -h
-sudo shutdown -h now
-sudo shutdown -r now
+sudo shutdown -h now (desligar na hora)
+sudo shutdown -r now (rebootar na hora)
 sudo date
 sudo shutdown -r 19:50 Servidor será reinicializando (agendamento de desligar ou rebootar)
 sudo shutdown -c
