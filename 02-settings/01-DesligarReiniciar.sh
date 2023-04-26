@@ -19,7 +19,7 @@ sudo halt -p
 sudo halt --reboot
 #
 # Desligando e reinicializando o servidor com poweroff
-sudo poweroff
+sudo poweroff (comando para desligar)
 sudo poweroff --reboot
 #
 # Desligando e reinicializando o servidor com init
@@ -29,7 +29,7 @@ sudo init 6
 #
 # Desligando e reinicializando o servidor com reboot
 sudo reboot --halt
-sudo reboot
+sudo reboot (comando para rebootar)
 #
 # Desligando e reinicializando o servidor com shutdown
 # opção do comando shutdown: -P (poweroff), -h (halt 60 second), -r (reboot), -c (cancel)
