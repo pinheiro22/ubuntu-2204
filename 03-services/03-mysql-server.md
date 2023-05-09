@@ -115,10 +115,12 @@ da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.
 	sudo usermod -a -G mysql $USER
 	newgrp mysql
 	id
-	
+
+
 	#recomendado reinicializar a máquina para aplicar as permissões
 	sudo reboot
 
+exit
 	#opções do comando mysql: -u (user), -p (password)
 	mysql -u dba -p
 
