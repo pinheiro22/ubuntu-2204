@@ -69,9 +69,11 @@ para a criação de páginas eletrônicas e blogs online.
 	#fazendo o download do Wordpress do site Oficial do Brasil
 	#opção do comando wget: -O (output-document)
 	wget -O wordpress.zip https://br.wordpress.org/latest-pt_BR.zip
-
+	ls
+	
 	#descompactando o arquivo do Wordpress
 	unzip wordpress.zip
+	ls
 
 	#movendo o conteúdo do Wordpress para o diretório do Apache2 Server
 	#opção do comando mv: -v (verbose)
