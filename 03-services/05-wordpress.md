@@ -93,6 +93,7 @@ para a criação de páginas eletrônicas e blogs online.
 
 	#acessando o diretório do Wordpress
 	cd /var/www/html/wp/
+	ls
 
 	#criando o arquivo de configuração do banco de dados do Wordpress
 	#opção do comando cp: -v (verbose)
